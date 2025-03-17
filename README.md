@@ -11,8 +11,6 @@ Edit the distribution Management element of the pom.xml file located in your pac
 </distributionManagement>
 
 
-Change owner and repo ID 
-
 Create a GitHub token to run the workflow with only Write and Read access.
 
 create a Repository secret and add that to GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }}
