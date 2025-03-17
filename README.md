@@ -15,6 +15,8 @@ Change owner and repo ID
 
 Create a GitHub token to run the workflow with only Write and Read access.
 
-Create a .github/Workflows and publish.yml file.
+create a Repository secret and add that to GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }}
+
+Create a .github/Workflows/publish-java-maven.yml file.
 
 
