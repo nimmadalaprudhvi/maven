@@ -2,13 +2,13 @@
 
 Edit the distribution Management element of the pom.xml file located in your package directory, replacing OWNER with the name of the personal account or organization that owns the repository and REPOSITORY with the name of the repository containing your project.
 
-<distributionManagement>
+ # <distributionManagement>
    <repository>
      <id>github</id>
      <name>GitHub OWNER Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
    </repository>
-</distributionManagement>
+# </distributionManagement>
 
 
 Create a GitHub token to run the workflow with only Write and Read access.
